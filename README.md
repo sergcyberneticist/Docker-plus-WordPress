@@ -11,6 +11,7 @@ Creating progect in Windows 10 or later:
 4. In any convenient location creating folder "WordPress"
    in this folder creating file "docker-compose.yml" with content:
 
+```yaml
 version: '3.3'
 services:
 db:
