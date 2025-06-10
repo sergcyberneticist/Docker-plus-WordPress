@@ -29,7 +29,7 @@ image: mysql:5.7
       - db
     image: wordpress:latest
     ports:
-      - "8000:80"
+      - "8080:80"
     restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
@@ -40,7 +40,7 @@ volumes:
   db_data:
 ```
 
-6. In PowerShell finding created folder "WordPress" and execute command:
+5. In PowerShell finding created folder "WordPress" and execute command:
   docker-compose up –d
-3. Open a browser and follow the link "http://localhost:8000".
+6. Open a browser and follow the link "http://localhost:8080".
    Complete the installation "WordPress".
