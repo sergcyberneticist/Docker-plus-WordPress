@@ -11,6 +11,15 @@ Creating progect in Windows 10 or later:
 4. In any convenient location creating folder "WordPress"
    in this folder creating file "docker-compose.yml" with content:
 
+   1. Starting PowerShell in admin mode.
+  Installing WSL 2
+  input command: wsl --install
+2. Installing "Docker desktop"
+   from "https://docs.docker.com/desktop/setup/install/windows-install/" and run it.
+4. In any convenient location creating folder "WordPress"
+   in this folder creating file "docker-compose.yml" with content:
+
+
 version: '3.3'
 services:
 db:
