@@ -8,7 +8,7 @@ Creating progect in Windows 10 or later:
   input command: wsl --install
 2. Installing "Docker desktop"
    from "https://docs.docker.com/desktop/setup/install/windows-install/" and run it.
-4. In any convenient location creating folder "WordPress"
+3. In any convenient location creating folder "WordPress"
    in this folder creating file "docker-compose.yml" with content:
 
 ```yaml
@@ -40,7 +40,7 @@ volumes:
   db_data:
 ```
 
-5. In PowerShell finding created folder "WordPress" and execute command:
+4. In PowerShell finding created folder "WordPress" and execute command:
   docker-compose up –d
-6. Open a browser and follow the link "http://localhost:8080".
+5. Open a browser and follow the link "http://localhost:8080".
    Complete the installation "WordPress".
