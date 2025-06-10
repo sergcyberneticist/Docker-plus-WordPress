@@ -1,7 +1,7 @@
 # Docker-plus-WordPress
 notes to myself
 
-Creating progect in Windows 10 or later:
+Creating project in Windows 10 or later:
 
 1. Starting PowerShell in admin mode.
   Installing WSL 2
