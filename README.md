@@ -13,8 +13,8 @@ Creating progect in Windows 10 or later:
 
 version: '3.3'
 services:
-  db:
-    image: mysql:5.7
+db:
+image: mysql:5.7
     volumes:
       - db_data:/var/lib/mysql
     restart: always
