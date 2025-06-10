@@ -37,8 +37,8 @@ services:
       WORDPRESS_DB_NAME: wordpress
 volumes:
   db_data:
-
-5. In PowerShell finding created folder "WordPress" and execute command:
+   
+6. In PowerShell finding created folder "WordPress" and execute command:
   docker-compose up –d
 3. Open a browser and follow the link "http://localhost:8000".
    Complete the installation "WordPress".
