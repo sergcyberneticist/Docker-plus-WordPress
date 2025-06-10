@@ -38,7 +38,8 @@ image: mysql:5.7
       WORDPRESS_DB_NAME: wordpress
 volumes:
   db_data:
-   
+```
+
 6. In PowerShell finding created folder "WordPress" and execute command:
   docker-compose up –d
 3. Open a browser and follow the link "http://localhost:8000".
