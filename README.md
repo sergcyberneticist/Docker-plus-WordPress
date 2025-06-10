@@ -10,8 +10,8 @@ Creating progect in Windows 10 or later:
    from "https://docs.docker.com/desktop/setup/install/windows-install/" and run it.
 4. In any convenient location creating folder "WordPress"
    in this folder creating file "docker-compose.yml" with content:
-   
-   [Uploadinversion: '3.3'
+
+[Uversion: '3.3'
 services:
   db:
     image: mysql:5.7
@@ -36,8 +36,7 @@ services:
       WORDPRESS_DB_PASSWORD: wordpress
       WORDPRESS_DB_NAME: wordpress
 volumes:
-  db_data:
-g docker-compose.yml…]()
+  db_data:ploading docker-compose.yml1…]()
 
 
 5. In PowerShell finding created folder "WordPress" and execute command:
